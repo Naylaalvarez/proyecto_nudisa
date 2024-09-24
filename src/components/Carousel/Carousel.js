@@ -12,12 +12,12 @@ const images = [
     },
     {
         id: 2,
-        src: 'https://i.pinimg.com/originals/59/71/fa/5971fa7b7802276703503d27e00f3ccb.jpg',
+        src: 'Images/yogurt.jpeg',
         alt: 'Promocion 2'
     },
     {
         id: 3,
-        src: 'https://i.pinimg.com/originals/aa/54/b2/aa54b26b9e7898a2d520dac7ca1f4e21.jpg',
+        src: 'Images/pancakes integrales.jpeg',
         alt: 'Promocion 3'
     },
     {

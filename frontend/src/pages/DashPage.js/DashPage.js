@@ -1,0 +1,25 @@
+import React from 'react';
+import NavBar from '../../components/NavBar/NavBar';
+import Carousel from '../../components/Carousel/Carousel';
+import ProductList from '../../components/Products/ProductList';
+import ProductRecipes from '../../components/Products/ProductRecipes.js';
+import FoodPage from '../FoodPage/FoodPage.js';
+import Footer from '../../components/Footer/Footer.js';
+
+function DashPage() {
+    return (
+        <div className="dashboard-container" >
+            <NavBar />
+            <div className="carousel-container" style={{ marginTop: '100px'  }}> 
+                <Carousel />
+            </div>
+            {/* top, reith, boton, left */}
+            <div style={{ margin: '26% 0px -10% -790px' }} >
+                < Footer />
+            </div>
+            
+        </div>
+    );
+}
+
+export default DashPage;
